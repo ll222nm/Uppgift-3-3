@@ -1,1 +1,124 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container{
+	max-width: 600px;
+	max-height:500px
+	
+	img src=".pics/info.jpg"
+	margin:auto;
+}
+
+#topbar{
+	background-image:url(pics/coffey.jpg);
+	height:215px;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-color:#797066;
+	width:600px;
+	font-family:Verdana;
+	font-size:9px;
+	color:#eae7d2;
+	text-align:right;
+	font-style:italic;
+	padding-top:8px;
+	
+	
+	
+}
+
+#menu{
+	font-family: "Times New Roman";
+	background-color:#797066;
+	height:45px;
+	margin-top:-16px;
+}
+
+#menu li{
+	
+display:inline;
+
+}
+#menu li a {
+	display: inline;
+}
+#menu a{
+	display:none;
+}
+
+#content{
+	max-width: 800px;
+	max-hight: 500px
+	position: left;
+	font-family:"Times New Roman"; 
+	color:#eae7d2;
+}
+
+
+
+
+#maincontent{
+	background-color:#eae7d2;
+	font-family:Verdana;
+	color:#797066;
+	Font-size:12px;
+	text-align:left;	
+	width: 360px;
+	float:left;
+	padding:15px;
+}
+
+#maincontent img{
+	float: left;
+	margin-right: 10px;
+
+
+
+	
+}
+#subcontent{
+	background-color:#eae7d2;
+	
+	float:right;
+	font-family:Verdana;
+	color:#797066;
+	font-size: 10px;
+	width: 160px;
+	padding:20px;
+}
+
+#subcontent ul{
+	list-style-type: none;
+}
+#subcontent p{
+	font-size:10px;
+}
+
+#maincontent h1 {
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
+
+#subcontent h1 {	
+	font-family: "Times New Roman";
+	font-weight: normal;
+	font-size: 17px;
+	margin-top: 20px;
+	
+}
+#subcontent a{
+	color:#797066;
+	margin-left:-40px;
+}
+
+#subcontent h2{
+	font-family: "Times New Roman";
+	font-size: 15px;
+	font-weight:normal;
+}
+#bottomcontent{
+	font-family:"Times New Roman";
+	font-style:italic;
+	font-size:11px;
+	background-color: #eae7d2;
+	padding:20px;
+	color:#797066;
+	
+
