@@ -11,7 +11,7 @@
 	height:215px;
 	background-repeat:no-repeat;
 	background-position:bottom;
-	background-color:#797066;
+	background-color:#51473d;
 	width:600px;
 	font-family:Verdana;
 	font-size:9px;
@@ -25,34 +25,76 @@
 }
 
 #menu{
-	font-family: "Times New Roman";
-	background-color:#797066;
+	font-family: "verdana";
+
+	background-color:#51473d;
 	height:45px;
 	margin-top:-16px;
+	
+
+	
+	
 }
 
 #menu li{
 	
-display:inline;
+
+float:left;
+padding: 10px;
+padding-right:20px;
+padding-left:20px;
+background-color: #797066;
+margin-top: 7px;
+float: left;
+margin-right:2px;
+font-size:12px;
+font-weight:normal;
+
+
+
 
 }
 #menu li a {
-	display: inline;
+	display:block;
+	color:#eae7d2;
+	text-decoration:none;
+	
+
 }
+
+
+
 #menu a{
 	display:none;
 }
 
+#menu ul{
+	margin-left:-30px;
+	list-style-type: none;
+	
+}
+
 #content{
+	background-color:#eae7d2;
 	max-width: 800px;
 	max-hight: 500px
 	position: left;
 	font-family:"Times New Roman"; 
 	color:#eae7d2;
+	overflow:auto;
+	line-height: 120%
+	
 }
 
-
-
+#menu li:first-letter{
+	text-transform:uppercase;
+	
+}
+	
+#menu li:hover{
+	
+	background-color: #928a80;
+}
 
 #maincontent{
 	background-color:#eae7d2;
@@ -63,13 +105,18 @@ display:inline;
 	width: 360px;
 	float:left;
 	padding:15px;
+	
 }
 
 #maincontent img{
 	float: left;
 	margin-right: 10px;
 
-
+}
+#menu .active a{
+	display:block;
+	background-color: #eae7d2;
+	color: #797066;
 
 	
 }
@@ -82,6 +129,7 @@ display:inline;
 	font-size: 10px;
 	width: 160px;
 	padding:20px;
+	border-left:1px dashed #9c9084;
 }
 
 #subcontent ul{
@@ -120,5 +168,8 @@ display:inline;
 	background-color: #eae7d2;
 	padding:20px;
 	color:#797066;
+	float:left;
+	width: 560px;
+	
 	
 
